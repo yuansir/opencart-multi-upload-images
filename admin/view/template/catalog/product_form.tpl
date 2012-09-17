@@ -1196,7 +1196,7 @@
             var uploader = $('#uploader').plupload('getUploader');
 
             // Files in queue upload them first
-            if (uploader.files.length > 0) {
+            if (uploader.files.length >= 0) {
                 // When all files are uploaded submit form
                 uploader.bind('StateChanged', function() {
                     if (uploader.files.length === (uploader.total.uploaded + uploader.total.failed)) {
