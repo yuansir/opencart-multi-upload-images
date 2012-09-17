@@ -694,7 +694,7 @@ class ControllerCommonFileManager extends Controller {
             'sort_order' => 0
         );
         
-        var_dump($this->session->data[$tmp[1]]);
+        //var_dump($this->session->data[$tmp[1]]);
 
 
 // Return JSON-RPC response
